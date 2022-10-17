@@ -1,9 +1,170 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1225px) {
+    /* --- Section Four Start --- */
 
-    .box-info h3 {
-        font-size: 20px;
+    .card {
+        gap: 20px;
     }
 
 
+    .secfour-title h2 {
+        font-size: 32px;
+        margin: 140px 0px 55px;
+    }
+
+    .card-box {
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        width: 231px;
+        height: 189px;
+    }
+
+    .card-box img {
+        width: 231px;
+        height: 92px;
+    }
+
+    .box-info {
+        padding: 0px 11px 13px;
+    }
+
+    .box-info h3 {
+        font-size: 17px;
+        padding: 6px 0px 18px;
+    }
+
+    .card-box:last-child .box-info h3 {
+        padding: 6px 0px 0px;
+    }
+
+    .box-info p {
+        font-size: 14px;
+    }
+
+    /* --- Section Four End --- */
+
+    /* --- Section six start --- */
+
+    .section-six {
+        padding: 103px 0px 107px;
+    }
+
+    .secsix-title h2 {
+        font-size: 34px;
+        padding-bottom: 31px;
+    }
+
+    .six-info p:first-child {
+        font-size: 14px;
+    }
+
+    span {
+        font-size: 46px;
+    }
+
+    .six-box {
+        padding-top: 36px;
+    }
+
+    .one,
+    .two {
+        width: 170px;
+    }
+
+    .one h4,
+    .two h4 {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    /* --- Section six end --- */
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* --- Section Four Start --- */
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secfour-title h2 {
+        font-size: 26px;
+        margin: 36px 0px 49px;
+    }
+
+    .card-box {
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        width: 185.92px;
+        height: 152.84px;
+    }
+
+    .card-box img {
+        width: 185px;
+        height: 74px;
+    }
+
+    .box-info {
+        padding: 0px 8px 10px;
+    }
+
+    .box-info h3 {
+        font-size: 14px;
+        padding: 5px 0px 14px;
+    }
+
+    .card-box:last-child .box-info h3 {
+        padding: 5px 0px 0px;
+    }
+
+    .box-info p {
+        font-size: 12px;
+    }
+
+    /* --- Section Four End --- */
+
+}
+
+@media only screen and (max-width: 597px) {
+
+    /* --- Section six start --- */
+
+    .section-six {
+        padding: 62px 0px 63px;
+    }
+
+    .secsix-title h2 {
+        font-size: 26px;
+        padding-bottom: 22px;
+    }
+
+    .six-info p:first-child {
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 37px;
+    }
+
+    .six-box {
+        padding-top: 29px;
+    }
+
+    .one,
+    .two {
+        width: 140px;
+    }
+
+    .one h4,
+    .two h4 {
+        font-size: 12px;
+    }
+
+    /* --- Section six end --- */
 
 }
