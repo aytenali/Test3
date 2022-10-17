@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+p {
+  margin: 0;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+/* --- Section Four Start --- */
+
+.secfour-title h2 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin: 226px 0px 121px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 28px;
+}
+
+.card-box {
+  background: #ffffff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 380px;
+  height: 336px;
+}
+
+.card-box img {
+  width: 380px;
+  height: 168px;
+}
+
+.box-info {
+  padding: 0px 20px 30px;
+}
+
+.box-info h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+  padding: 11px 0px 32px;
+  margin: 0;
+}
+
+.card-box:last-child .box-info h3 {
+  padding: 11px 0px 0px;
+  line-height: 120%;
+}
+
+.box-info p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+  color: #000000;
+
+}
+
+/* --- Section Four End --- */
+
+
+/* --- Section six start --- */
+
+
+.section-six {
+  background: #9DC9C8;
+  padding: 179px 0px 185px;
+}
+
+.secsix-title h2 {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  padding-bottom: 50px;
+}
+
+.six-info p:first-child {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #000000;
+}
+
+span {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 101.38%;
+  color: #000000;
+}
+
+.six-box {
+  padding-top: 62px;
+  display: flex;
+}
+
+.one,
+.two {
+  width: 294px;
+}
+
+.one h4,
+.two h4 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #000000;
+padding-bottom: 9px;
+}
